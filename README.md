@@ -9,8 +9,9 @@ trade at, and the quantity (number of shares) they wish to trade. On our exchang
 processing of a newly posted order, and happen immediately, which is known as ‘continuous trading’.
 
 **Run Locally**: `make run < test1.txt`
+**Run tests**: `make test`
 
-**Matching example**
+### Matching example
 
 As orders arrive at the exchange, they are considered for aggressive matching first against the opposite side of the
 book.

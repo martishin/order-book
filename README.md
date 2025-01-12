@@ -8,6 +8,8 @@ When placing an order, traders specify if they wish to buy or sell, the limit pr
 trade at, and the quantity (number of shares) they wish to trade. On our exchange trades only occur during the
 processing of a newly posted order, and happen immediately, which is known as ‘continuous trading’.
 
+**Run Locally**: `make run < test1.txt`
+
 **Matching example**
 
 As orders arrive at the exchange, they are considered for aggressive matching first against the opposite side of the

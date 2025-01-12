@@ -26,7 +26,7 @@ As there are no Sell orders, yet, they rest on the order book as follows (note B
 
 | Bids (Buying) | Bids (Buying) | Asks (Selling) | Asks (Selling) |
 |---------------|---------------|----------------|----------------|
-| Quantity      | Price         | Quantity       | Price          |
+| Quantity      | Price         | Price          | Quantity       |
 | 1000          | 99            |                |                |
 | 500           | 99            |                |                |
 | 1200          | 98            |                |                |
@@ -40,8 +40,8 @@ existing resting orders:
 
 | Bids (Buying) | Bids (Buying) | Asks (Selling) | Asks (Selling) |
 |---------------|---------------|----------------|----------------|
-| Quantity      | Price         | Quantity       | Price          |
-| 1000          | 99            | 2000           | 101            |
+| Quantity      | Price         | Price          | Quantity       |
+| 1000          | 99            | 101            | 2000           |
 | 500           | 99            |                |                |
 | 1200          | 98            |                |                |
 
@@ -61,8 +61,8 @@ The orders are matched in price time priority (first by price, then by arrival t
 
 | Bids (Buying) | Bids (Buying) | Asks (Selling) | Asks (Selling) |
 |---------------|---------------|----------------|----------------|
-| Quantity      | Price         | Quantity       | Price          |
-| 700           | 98            |                |                |
+| Quantity      | Price         | Price          | Quantity       |
+| 700           | 98            | 101            | 2000           |
 
 ### Limit order handling
 
@@ -103,7 +103,7 @@ Which represents the following order book:
 
 | Bids (Buying) | Bids (Buying) | Asks (Selling) | Asks (Selling) |
 |---------------|---------------|----------------|----------------|
-| Quantity      | Price         | Quantity       | Price          |
+| Quantity      | Price         | Price          | Quantity       |
 | 50000         | 99            | 100            | 500            |
 | 25500         | 98            | 100            | 10000          |
 |               |               | 103            | 100            |

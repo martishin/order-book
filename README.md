@@ -41,7 +41,7 @@ existing resting orders:
 | Bids (Buying) | Bids (Buying) | Asks (Selling) | Asks (Selling) |
 |---------------|---------------|----------------|----------------|
 | Quantity      | Price         | Quantity       | Price          |
-| 1000          | 99            | 101            | 2000           |
+| 1000          | 99            | 2000           | 101            |
 | 500           | 99            |                |                |
 | 1200          | 98            |                |                |
 
@@ -62,7 +62,7 @@ The orders are matched in price time priority (first by price, then by arrival t
 | Bids (Buying) | Bids (Buying) | Asks (Selling) | Asks (Selling) |
 |---------------|---------------|----------------|----------------|
 | Quantity      | Price         | Quantity       | Price          |
-| 700           | 98            | 101            | 2000           |
+| 700           | 98            |                |                |
 
 ### Limit order handling
 

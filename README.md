@@ -142,6 +142,6 @@ Please note that once submitted, orders are not modified by further input. There
 order book, all orders are for the same product.
 
 ### Constraints
-Quantities bigger than 999,999,999 will not be provided as input
-Prices bigger than 999,999 will not be provided as input
-Width truncation of the output will never be required
+Quantities bigger than 999,999,999 will not be provided as input.  
+Prices bigger than 999,999 will not be provided as input.  
+Width truncation of the output will never be required.
